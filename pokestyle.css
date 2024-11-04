@@ -1,0 +1,173 @@
+@font-face {
+  font-family: "pixel";
+  src: url("./fonts/Pixeboy-z8XGD.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "pixelated";
+  src: url("./fonts/PixelifySans-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#DexImage {
+  width: 450px;
+  height: 750px;
+  background-image: url("./pokedex.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+
+#up {
+  display: block;
+  position: relative;
+  /* background-color: blueviolet; */
+  width: 26px;
+  height: 29px;
+  left: 66px;
+  top: 76px;
+}
+
+#down {
+  display: block;
+  position: relative;
+  /* background-color: black; */
+  width: 26px;
+  height: 29px;
+  left: 66px;
+  top: 75px;
+}
+
+#next {
+  display: block;
+  position: relative;
+  width: 29px;
+  height: 27px;
+  /* background-color: red; */
+  top: 75px;
+  left: 92px;
+}
+
+#prev {
+  display: block;
+  position: relative;
+  width: 29px;
+  height: 27px;
+  /* background-color: blue; */
+  left: 38px;
+  top: 19px;
+}
+
+#check {
+  display: block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  /* background-color: black; */
+  border-radius: 5pc;
+  left: 377px;
+  top: 0px;
+  right: 30px;
+}
+
+#close {
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  /* background-color: black; */
+  border-radius: 5pc;
+
+  bottom: 78px;
+  left: 358px;
+}
+
+.container {
+  width: 370px;
+  height: 360px;
+  /* background-color: transparent; */
+
+  position: relative;
+  left: 40px;
+  top: 118px;
+}
+
+.name {
+  width: 390px;
+  height: 25px;
+  background-color: #8dc73f;
+  position: relative;
+  left: 30px;
+  top: 148px;
+  border-radius: 25px;
+  font-family: "pixel";
+  font-size: 27px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+p,
+.type {
+  margin: 0px;
+  display: inline;
+}
+
+.type {
+  margin-left: 15px;
+}
+
+#pokemon_name {
+  margin-left: 11px;
+}
+
+#pokemon_type {
+  margin-right: 11px;
+}
+
+.desc {
+  width: 199px;
+  height: 94px;
+  background-color: #8dc73f;
+  position: relative;
+  top: 166px;
+  left: 137px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "pixel";
+  font-size: 19px;
+}
+
+#pokemon {
+  width: 100%;
+  height: 100%;
+}
+
+.description {
+  display: block;
+  margin-top: 5px;
+}
+
+.number {
+  display: block;
+  margin-top: 5px;
+}
+
+.label {
+  text-align: right;
+}
+
+.value {
+  margin-left: 5px;
+}
